@@ -1,4 +1,4 @@
-git command：
+###### git command：
 
 if you want to test Git SSH seting, command of "ssh -T git@github.com" can be used; and then input password.
 git status， 查看仓库状态
