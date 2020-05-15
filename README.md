@@ -1,8 +1,8 @@
 ##### Recording anythins in my Road of Computer Learnning 
-#####linux command：
+##### linux command：
   in linux, if permission denied to copy, then trying "sudo chmod -r 777" command for <target directory>.
   
-######  git command：
+###### git command：
   if you want to test Git SSH seting, command of "ssh -T git@github.com" can be used; and then input password.
   git status， 查看仓库状态
   git init, initialize repository
@@ -24,4 +24,5 @@
   git merge，合并分支
   git log --graph,用图表的形式输出提交日志，非常直观，很有用！
   git reset --hard <哈希值>，回溯历史版本,HEAD指向<哈希值>提交点
+  git reflog，查看当前仓库的操作日志
   
