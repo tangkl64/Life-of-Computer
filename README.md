@@ -25,4 +25,4 @@
   git log --graph,用图表的形式输出提交日志，非常直观，很有用！  
   git reset --hard <哈希值>，回溯历史版本,HEAD指向<哈希值>提交点  
   git reflog，查看当前仓库的操作日志  
-  
+  git commit --amend,修改提交信息
