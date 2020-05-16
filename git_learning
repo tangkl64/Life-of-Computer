@@ -22,4 +22,6 @@ git reset --hard <哈希值>，回溯历史版本,HEAD指向<哈希值>提交点
 git reflog，查看当前仓库的操作日志
 git commit --amend,修改提交信息  
 git commit -am “说明”，提交内容是修改一些小错误，如打印错误(typo)，没必要先add再commit  
-git rebase -i HEAD~n, 更改历史，
+git rebase -i HEAD~n, 更改历史，合并n个提交为一个提交  
+git clone git@github.com：用户名/库名.git，从远程仓库克隆到本地目录下  
+git checkout -b 本地分支名 origin/远程库分支名，新建本地分支，以远程库的分支为来源，即将远程分支获取到本地  
