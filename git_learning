@@ -25,3 +25,4 @@ git commit -am “说明”，提交内容是修改一些小错误，如打印�
 git rebase -i HEAD~n, 更改历史，合并n个提交为一个提交  
 git clone git@github.com：用户名/库名.git，从远程仓库克隆到本地目录下  
 git checkout -b 本地分支名 origin/远程库分支名，新建本地分支，以远程库的分支为来源，即将远程分支获取到本地  
+git push -u origin master, 将当前分支下的内容推送到远程库的origin/master
